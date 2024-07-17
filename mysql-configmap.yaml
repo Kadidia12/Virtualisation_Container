@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+  namespace: ml_project
+data:
+  MYSQL_DATABASE: "ml_project_db"  # Remplacez par le nom de votre base de données
